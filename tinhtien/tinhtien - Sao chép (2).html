@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<script  src="java.js"></script>
+   
+</head>
+<body class="anh" >
+    
+    <a href="../index.html"><h2 style="color: red;" align="RIGHT">TRANG CHỦ</h2></a>
+   <td> <H1 align="center" >Giỏ hàng</H1></td>
+   <table border="1" align="center" class="1">
+    <tr>
+   <td><img src="../upload/ca thu.jpg" width="500" height="300"> </td> 
+    
+<td>
+    <table border="1" align="center" >
+
+            <tr > 
+        <td><span>CÁ THU</span></td>
+           
+        <td>SỐ LƯỢNG</td>
+            <td ><input value="1" id="soluong" type="number" min="1"></td>
+        </tr>
+          <tr>
+              <td>
+       <span>Giá:<span id ="giasanpham"></span>500,000đ</span> 
+    </td>
+     <tr >
+        <td><p >
+            <span >MÃ GIẢM GIÁ:</span>
+            <span >
+                 <input id="magiamgia"  type="text">
+                 <b> mã giảm giá 123@abc</b>
+            </span>
+        </p>
+    </td>
+    </tr>
+    <TR>
+        <TD>
+        <p id="luuy">Lưu ý: Giá sản phẩm chưa bao gồm phí vận chuyển</p>
+        <p id="canhphaitinhtoan">Giá vận chuyển <span id="tongvanchuyen">Đang tải ...</span></p>
+        <p> <span>Tổng tiền: <span id="canthanhtoan"></span> VNĐ</span></p>
+    </TD>
+    </tr>  
+    </table>
+</tr>
+</table>
+<br>
+
+<table align="center">
+    <tr>
+        <td>
+<span >Tên khách hàng <em>(*)</em></span>
+					<span ><input name="name" id="nguoimuaload" value="" placeholder="Nguyễn Thi A"></span>
+				</td>
+                <td>
+				
+					<span>Điện thoại <em>(*)</em></span>
+					<span ><input name="sdt" id="dienthoaiload" value="" placeholder="0923.456.789"></span>
+            </td>
+            </tr>
+            <tr>
+                <td>
+				<p>
+					<span >Địa chỉ <em>(*)</em></span>
+					<span ><input name="diachi" id="dienthoaiload" value="" placeholder="0923.456.789"></span>
+				</p>
+                </td>
+                <td>
+				<p>
+					<span >Email</span>
+					<span ><input name="email" id="emailload" value="" placeholder="email@gmail.com"></span>
+				</p>
+            </td>
+            <tr>
+				<td><div >
+					<textarea name="giohangmax[&#39;ghichu&#39;]" id="ghichuload" value=""></textarea>
+				</div></td>
+            </tr>
+            <Tr>
+			<th>
+                <button onclick="buttonhoadon()"><h2 style="color: red;">tạo đơn hàng</h2></button>
+        </th>
+        </Tr>
+				
+            </table>
+
+           
+      
+
+</body>
+</html>

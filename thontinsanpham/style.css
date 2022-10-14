@@ -1,0 +1,41 @@
+
+
+
+     header{
+        width: 980px;
+        height: 220px;
+        background:      #0a92e0;
+        margin: 10px auto;
+        border: 20px dashed #7e81a3;
+        background-clip: border-box;
+    
+       }
+       nav h2{
+        width: 150px;
+        background-color: #ff3da8;
+        padding:12px 48px ;
+        border-radius: 70px;
+        
+    }
+    nav.tomcang h2{
+        color: rgb(20, 220, 110);
+        margin-top: 30px;
+        text-decoration: none;
+    }
+nav.tomcang a{
+    text-decoration: none;
+    color: #45dd66;
+}
+
+
+ body.anh{
+     background-image: url(http://2.bp.blogspot.com/-MobBV7yKrJY/UgR8c_h1sAI/AAAAAAAACmk/x211qftvLRs/s1600/anh-dep-ve-bien-3.jpg);
+ }
+ body{
+    -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          -o-user-select: none;
+           user-select: none;
+}

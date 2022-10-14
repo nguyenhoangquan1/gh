@@ -1,0 +1,259 @@
+
+
+/* menu */
+.menu {
+    width:1325px;
+    background:rgb(66, 140, 238);
+    height: 55px;
+   margin-left: 3px;
+   margin-right: 3px;
+  margin-top: -17px;
+ 
+  
+}
+.menu li {
+   
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#6dbfee;
+    text-decoration:none;
+}
+.menu li:hover > a {
+    text-decoration:none;
+    color: red;
+    background-color: white;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+.menu > ul > li {
+ 
+    display:inline-block;
+    position:relative;
+    font-size:20px;
+}
+.menu > ul > li > a {
+    padding:16px 30px;
+    display:inline-block;
+    color: white;
+}
+.menu > ul > li:hover > a {
+    background:white;
+}
+.menu li:hover .sub-menu {
+
+    opacity:1;
+    z-index: 1;
+}
+.sub-menu {
+    width: 100%;
+    padding: 15px 0px;
+    position:absolute;
+    z-index:-1;
+    opacity:0;
+    background:rgb(66, 140, 238);
+}
+.sub-menu li {
+    display:block;
+    font-size: medium;
+    align-items: center;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main */
+.letrai
+{
+    width: auto;
+    height: 1250px;
+    overflow: hidden;
+    float: left;
+    background-color: rgb(192, 189, 189);
+    padding: 5px 5px;
+margin-top: -1px;
+}
+
+
+
+
+.lephai
+{
+    width: 1110px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    padding: 5px 5px;
+    text-align: center;
+
+}
+
+.mot {
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+
+    padding: 15px 15px;
+
+}
+.hai {
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+
+    padding: 15px 15px;
+
+}
+.ba {
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+
+    padding: 15px 15px;
+ 
+}
+.bon {
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+
+    padding: 15px 15px;
+
+}
+
+.lephai h2{
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+/* chân trang */
+.footer {
+   
+   
+    width: auto;
+    height: 220px;
+    background-color: lightgray;
+    color: white;
+margin-top: -20px;
+ }
+.left-page{
+    width: 200px;
+    height: 170px;
+    overflow: hidden;
+    float: left;
+/*background-color: blue;*/
+    padding: 15px 15px;
+}
+.middle-page{
+    width: 790px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+/*background-color: rgb(255, 102, 0);*/
+    padding: 15px 15px;
+}
+.right-page{
+    width: 250px;
+    height: 170px;
+    overflow: hidden;
+    float: left;
+/*background-color: rgb(0, 255, 76);*/
+    padding: 15px 15px;
+}
+
+
+/* le giua */
+.middle-page p{
+ margin-left: 150px;
+ color: black;
+ font-family: cursive;
+
+}
+
+body{
+    -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          -o-user-select: none;
+           user-select: none;
+}
+
+
+/*
+
+.menu{
+    width: 1325px ;
+    height: 60px;
+    background-color: rgb(66, 140, 238);
+   float: left;
+   margin-left: 3px;
+   margin-right: 3px;
+   margin-top: 1px;
+ 
+}
+.menu li{
+    list-style: none;
+ 
+}
+.menu a{
+   text-decoration: none;
+   color: rgb(247, 241, 241);
+}
+.menu > li{
+    list-style: none;
+ padding: 20px 35px;
+    float: left;
+    position:relative;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .sub a:hover {
+    background-color: rgb(226, 223, 223);
+    color: red;
+    padding: 10px 10px;
+    text-align: center;
+}
+.menu li:hover {
+    background-color: rgb(226, 223, 223);
+    color: red;
+    padding: 10px 10px;
+    text-align: center;
+}
+.menu li:hover .sub {
+
+    opacity:1;
+    z-index: 1;
+    
+}
+.sub {
+    width: 80px;
+    padding: 20px 20px;
+    position:absolute;
+    z-index:1;
+    opacity:0;
+    transition: linear 0.3s;
+    background-color:  rgb(66, 140, 238);
+  overflow: hidden;
+}
+.sub li{
+    padding: 10px 10px;
+}
